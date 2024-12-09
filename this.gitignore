@@ -1,0 +1,16 @@
+# Ignore all core WordPress files
+/wp-admin/
+/wp-includes/
+
+# Ignore uploads, cache, and environment-specific files
+wp-content/uploads/
+wp-content/cache/
+wp-content/upgrade/
+
+# Ignore sensitive files
+wp-config.php
+.htaccess
+
+# Ignore system files
+.DS_Store
+Thumbs.db
